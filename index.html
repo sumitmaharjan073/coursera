@@ -36,12 +36,78 @@
 			<div class="col-md-5 d-flex justify-content-end align-items-start">
 				<span class="ml-4 mt-2">Enterprises</span>
 				<span class="ml-4 mt-2">for students</span>
-				<span class="ml-4 mt-2 text-primary">Login</span>
+				<button class="ml-4 mt-2 text-primary"  data-toggle="modal" data-target="#loginModal">Login</span>
 				<button class="btn btn-primary ml-2">Join Free</button>
 			</div>
 		</div>
 		</div>
 	</nav>
+	
+	
+	
+	<!-- Login in Form Model Design Start-->
+
+	<div class="modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+	  <!-- model-content contains styles lije border background-color -->
+			<!-- <div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div> -->
+			<div class="modal-body">
+	  
+	  
+				<div class="card">
+				  <div class="card-header">
+					<h3>Sign In</h3>
+				  </div>
+				  <div class="card-body">
+					<form>
+					  <div class="input-group form-group">
+						<div class="input-group-prepend">
+						  <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="username">
+					  </div>
+					  <div class="input-group form-group">
+						<div class="input-group-prepend">
+						  <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password">
+					  </div>
+					  <div class="row align-items-center">
+						<input type="checkbox" style="margin-left: 25px;">Remember Me
+					  </div>
+					  <div class="form-group">
+						<input type="submit" value="Login" class="btn btn-success float-right">
+					  </div>
+					</form>
+				  </div>
+				  <div class="card-footer">
+					<p>Don't have an account?<a href="#">Sign Up</a>
+					<br>
+					<a href="#">Forgot Your Password?</a>
+				  </div>
+				</div>
+	  
+	  
+			</div>
+		   <!--  <div class="modal-footer">
+			  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			  <button type="button" class="btn btn-primary">Sign In</button>
+	  this button about closing doesnot seems important because click ouside the modal also closes the modal
+	  and the modal-footer is the right align by default
+			</div> -->
+		  </div>
+		</div>
+	  </div>
+
+	<!-- Login form Model Design End-->
+	
+	
 
 	<div class="banner container" >
 		<div class="row ">
@@ -465,5 +531,15 @@
 		</div>
 	</div>
 
+	
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/model.js"></script>
+
+	
+	
+	
 </body>
 </html>
