@@ -14,100 +14,84 @@
 <body>
 	<nav class="position-fixed z bg-white border-bottom border-secondary">
 		<div class="container py-3">
-		<div class="row">
-			<h2 class="col-md-2  mb-0 text-primary">
-				coursera
-			</h2>
-			
-			<div class="col-md-5 d-flex align-items-start">
-				<div>
-				  <button class="btn btn-primary d-flex" type="button">
-					<span>Explore</span>
-			    	<span class="fa fa-chevron-down ml-2 mt-1"></span>
-				   </button>					
+			<div class="row">
+				<h2 class="col-md-2  mb-0 text-primary">
+					coursera
+				</h2>
+				
+				<div class="col-md-5 d-flex align-items-start">
+					<div class="explore position-relative">
+					  <button class="btn btn-primary d-flex" type="button">
+						<span>Explore</span>
+				    	<span class="fa fa-chevron-down ml-2 mt-1"></span>
+				      </button>
+				      <ul class="class-dropdown position-absolute list-unstyled">
+				      	<h5>Classes</h5>
+				      	<li class="d-flex justify-content-between">
+				      		<span>Class 1</span>
+				      		<span class="fa fa-angle-down"></span>
+				      		<ul class="sublist bg-white ">
+				      			<h5>Subjects</h5>
+				      			<li>Maths</li>
+				      			<li>English</li>
+				      			<li>Scinece</li>
+				      			<li>Grammer</li>
+				      		</ul>
+				      	</li>
+				      	<li class="d-flex justify-content-between">
+				      		<span>Class 1</span>
+				      		<span class="fa fa-angle-down"></span>
+				      		<ul class="sublist bg-white ">
+				      			<h5>Subjects</h5>
+				      			<li>Maths</li>
+				      			<li>English</li>
+				      			<li>Scinece</li>
+				      			<li>Grammer</li>
+				      		</ul>
+				      	</li>
+				      	<li class="d-flex justify-content-between">
+				      		<span>Class 1</span>
+				      		<span class="fa fa-angle-down"></span>
+				      		<ul class="sublist bg-white ">
+				      			<h5>Subjects</h5>
+				      			<li>Maths</li>
+				      			<li>English</li>
+				      			<li>Scinece</li>
+				      			<li>Grammer</li>
+				      		</ul>
+				      	</li>
+				      	<li class="d-flex justify-content-between">
+				      		<span>Class 1</span>
+				      		<span class="fa fa-angle-down"></span>
+				      		<ul class="sublist bg-white">
+				      			<h5>Subjects</h5>
+				      			<li>Maths</li>
+				      			<li>English</li>
+				      			<li>Scinece</li>
+				      			<li>Grammer</li>
+				      		</ul>
+				      	</li>
+				      </ul>
+					</div>
+
+					<div class="ml-2 input-group">
+					  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+					    <button class="btn btn-primary" type="button">
+					    	<span class="fa fa-search"></span>
+					    </button>
+					</div>
 				</div>
-				<div class="ml-2 input-group">
-				  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-				    <button class="btn btn-primary" type="button">
-				    	<span class="fa fa-search"></span>
-				    </button>
+
+				<div class="col-md-5 d-flex justify-content-end align-items-start">
+					<span class="ml-4 mt-2">Enterprises</span>
+					<span class="ml-4 mt-2">for students</span>
+					<span class="ml-4 mt-2 text-primary">
+						<a href="./login/index.html">Login</a>
+					</span>
 				</div>
-			</div>
-			<div class="col-md-5 d-flex justify-content-end align-items-start">
-				<span class="ml-4 mt-2">Enterprises</span>
-				<span class="ml-4 mt-2">for students</span>
-				<button class="ml-4 mt-2 text-primary"  data-toggle="modal" data-target="#loginModal">Login</span>
-				<button class="btn btn-primary ml-2">Join Free</button>
-			</div>
 		</div>
 		</div>
 	</nav>
-	
-	
-	
-	<!-- Login in Form Model Design Start-->
-
-	<div class="modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-		  <div class="modal-content">
-	  <!-- model-content contains styles lije border background-color -->
-			<!-- <div class="modal-header">
-			  <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			  </button>
-			</div> -->
-			<div class="modal-body">
-	  
-	  
-				<div class="card">
-				  <div class="card-header">
-					<h3>Sign In</h3>
-				  </div>
-				  <div class="card-body">
-					<form>
-					  <div class="input-group form-group">
-						<div class="input-group-prepend">
-						  <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
-						</div>
-						<input type="text" class="form-control" placeholder="username">
-					  </div>
-					  <div class="input-group form-group">
-						<div class="input-group-prepend">
-						  <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
-						</div>
-						<input type="password" class="form-control" placeholder="password">
-					  </div>
-					  <div class="row align-items-center">
-						<input type="checkbox" style="margin-left: 25px;">Remember Me
-					  </div>
-					  <div class="form-group">
-						<input type="submit" value="Login" class="btn btn-success float-right">
-					  </div>
-					</form>
-				  </div>
-				  <div class="card-footer">
-					<p>Don't have an account?<a href="#">Sign Up</a>
-					<br>
-					<a href="#">Forgot Your Password?</a>
-				  </div>
-				</div>
-	  
-	  
-			</div>
-		   <!--  <div class="modal-footer">
-			  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-			  <button type="button" class="btn btn-primary">Sign In</button>
-	  this button about closing doesnot seems important because click ouside the modal also closes the modal
-	  and the modal-footer is the right align by default
-			</div> -->
-		  </div>
-		</div>
-	  </div>
-
-	<!-- Login form Model Design End-->
-	
-	
 
 	<div class="banner container" >
 		<div class="row ">
@@ -536,10 +520,6 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/model.js"></script>
-
-	
-	
 	
 </body>
 </html>
