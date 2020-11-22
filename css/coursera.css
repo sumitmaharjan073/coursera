@@ -11,7 +11,50 @@ nav.position-fixed{
 	width: 100% !important;
 	z-index: 1050;
 }
+nav .explore:hover button{
+	box-shadow: 0 0 2px grey;
+	color:#007BFF !important;
+	border:none;
+	background: transparent !important;
+}
+nav .class-dropdown{
+	margin-top:2px;
+	display:none;
+	box-shadow: 0 0 4px grey;
+	border-radius: 4px;
+	background: white;
+	padding-top: 10px;
 
+}
+nav .class-dropdown h5{padding-left:10px;}
+nav .explore:hover .class-dropdown{
+	display: block;
+}
+nav .class-dropdown li{
+	font-family: sans-serif;
+	font-size:17px;
+	width:250px;
+	padding:8px 12px;
+	font-weight: bold;
+}
+nav .class-dropdown>li{position: relative;}
+nav .class-dropdown>li>.fa{transform:rotate(-90deg);}
+nav .class-dropdown li:hover{background: #E1E2E2;}
+nav .class-dropdown .sublist{
+	position: absolute;
+	right:-250px;
+	top:0;
+	display:none;
+	list-style:none;
+	padding-top: 10px;
+	box-shadow: 0 0 4px grey;
+}
+nav .class-dropdown>li:hover .sublist{
+	display: block;
+}
+
+
+/*banner*/
 .banner{
 	/*min-height: 100vh;*/
 	padding-top: 25vh;
