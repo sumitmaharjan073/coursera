@@ -20,8 +20,8 @@
 	border-radius: 3px;
 	background-color:white;
 }
-.login_div>form>input[type="text"]{
-	width: 49%;
+.login_div>form>input.widthname{
+	width: 32.55%;
 }
 .login_div>form>input{
 	width: 100%;
