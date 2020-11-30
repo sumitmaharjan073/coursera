@@ -8,11 +8,16 @@
 </head>
 <body>
     <div class="login_div">
-        <form id="myform" action="login.html" >
+        <form id="myform" action="registration.php" method="POST">
             <h2><span class="sin">Login</span><span class="sup" >Sign Up</span></h2>
             <h4 class="sup" >Please fill up the form details to create account</h4>
-            <input class="sup" type="text" name="first" placeholder="First Name" value="">
-            <input class="sup"  type="text" name="last" placeholder="Last Name" value="">
+            <input class="sup widthname" type="text" name="first" placeholder="First Name" value="">
+            <input class="sup widthname" type="text" name="middle" placeholder="Middle Name" value="">
+            <input class="sup widthname"  type="text" name="last" placeholder="Last Name" value="">
+            <input class="sup" type="text" name="username" placeholder="username" value="">
+            <input class="sup" type="number" name="age" placeholder="Your Age" value="">
+            <input class="sup" type="text" name="address" placeholder="city, state" value="">
+            <input class="sup" type="number" name="phonenumber" placeholder="Your Phone Number" value="">
             <input class="full_input " type="email" name="email" placeholder="Email" value=""><br>
             <input class="full_input" type="password" name="pass" placeholder="Password" value=""><br>
             <input class="full_input sup" type="password" name="cpass" placeholder="confirm password" value=""><br>
@@ -22,9 +27,16 @@
             <p class="sin" >
                 <input  type="checkbox" name="remember"  value="" checked> Remember Me
             </p>
+            <!-- button and span changed into input type submit for php locating- by Arjun Shrestha -->
+            <input type="submit" class="sin" name="login" value="LOG IN">
+            <input type="submit" class="sup" name="signup" value="SIGN UP">
+            
+            <!--    
             <button>
-                <span class="sin" >Login</span><span class="sup" >Sign Up</span>
+                <span class="sin" name="login" >Login</span><span class="sup" name="signup" >Sign Up</span>
             </button>
+            -->
+            
             <p class="sup" >Already have account, <span id="aHavAcc">Login</span> </p>
             <p class="sin" ><span>create an account</span> </p>
         </form>
