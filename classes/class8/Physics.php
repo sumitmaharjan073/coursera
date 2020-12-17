@@ -11,23 +11,24 @@
 </head>
 <body>
 	<!-- path from home-->
-	<h5 class="path"><a href="">Home</a> / <a href="">Class8</a> / <a href="Maths.php">Maths</a></h5>
+	<h5 class="path"><a href="">Home</a> / <a href="">Class8</a> / <a href="">Physics</a></h5>
 	<!-- topic div -->
 	<ul class="topics">
 		<h4>Topics</h4>
 		<li><span class="green d-flex justify-content-between">
-			<span>Rational_Numbers</span><span class="fa fa-angle-down"></span>
+			<span>Force&Pressure</span><span class="fa fa-angle-down"></span>
 			</span>
 			<ul class="incHeight">
 				<!-- previously, down list, there was no <a></a> -->
-				<a><li class="red">Introduction</li></a>
-				<a><li>Types_of_numbers</li></a>
-				<a><li>Properties_Closure</li></a>
-				<a><li>Properties_Associativity</li></a>
-				<a><li>Additive_and_Multiplicative</li></a>
-				<a><li>Distributive_property</li></a>
-				<a><li>Representation_of_number</li></a>
-				<a><li>Two_Rational_numbers</li></a>
+				<a><li>Introduction</li></a>
+				<a><li>ForceA_push_or_a_pull</li></a>
+				<a><li>Forces_interaction</li></a>
+				<a><li>Exploring_Forces</li></a>
+				<a><li>Force_motion</li></a>
+				<a><li>Force_object</li></a>
+				<a><li>Effects_Forces</li></a>
+				<a><li>Contact_forces_and_Non_contact_forces</li></a>
+				<a><li>Pressure</li></a>
 			</ul>
 		</li>
 		<li><span class="d-flex justify-content-between">
@@ -69,52 +70,58 @@
 	<!-- topic detail div -->
 	<div class="topic-detail">
 		
-		<div class="Rational_Numbers-Introduction show">
+		<div class="Force&Pressure-Introduction show">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile11,filesize("Content_Details/E0311.html"));
+			echo fread($myFile51,filesize("Content_Details/E1311.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Types_of_numbers">
+		<div class="Force&Pressure-ForceA_push_or_a_pull">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile12,filesize("Content_Details/E0312.html"));
+			echo fread($myFile52,filesize("Content_Details/E1312.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Properties_Closure">
+		<div class="Force&Pressure-Forces_interaction">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile13,filesize("Content_Details/E0313.html"));
+			echo fread($myFile53,filesize("Content_Details/E1313.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Properties_Associativity">
+		<div class="Force&Pressure-Exploring_Forces">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile14,filesize("Content_Details/E0314.html"));
+			echo fread($myFile54,filesize("Content_Details/E1314.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Additive_and_Multiplicative">
+		<div class="Force&Pressure-Force_motion">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile15,filesize("Content_Details/E0315.html"));
+			echo fread($myFile55,filesize("Content_Details/E1315.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Distributive_property">
+		<div class="Force&Pressure-Force_object">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile16,filesize("Content_Details/E0316.html"));
+			echo fread($myFile56,filesize("Content_Details/E1316.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Representation_of_number">
+		<div class="Force&Pressure-Effects_Forces">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile17,filesize("Content_Details/E0317.html"));
+			echo fread($myFile57,filesize("Content_Details/E1317.html"));
 			?>
 		</div>
-		<div class="Rational_Numbers-Two_Rational_numbers">
+		<div class="Force&Pressure-Contact_forces_and_Non_contact_forces">
 			<?php
 			include 'Contentvariable.php';
-			echo fread($myFile18,filesize("Content_Details/E0318.html"));
+			echo fread($myFile58,filesize("Content_Details/E1318.html"));
+			?>
+		</div>
+		<div class="Force&Pressure-Pressure">
+			<?php
+			include 'Contentvariable.php';
+			echo fread($myFile59,filesize("Content_Details/E1319.html"));
 			?>
 		</div>
 		
