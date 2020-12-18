@@ -11,7 +11,7 @@
 </head>
 <body>
 	<!-- path from home-->
-	<h5 class="path"><a href="">Home</a> / <a href="">Class8</a> / <a href="">Physics</a></h5>
+	<h5 class="path"><a href="../../index.html">Home</a> / <a href="">Class8</a> / <a href="Physics.php">Physics</a></h5>
 	<!-- topic div -->
 	<ul class="topics">
 		<h4>Topics</h4>
@@ -32,37 +32,45 @@
 			</ul>
 		</li>
 		<li><span class="d-flex justify-content-between">
-			<span>Linear_Equations_in_One_Variable</span><span class="fa fa-angle-down"></span>
+			<span>Friction</span><span class="fa fa-angle-down"></span>
 			</span>
 			<ul>
 				<li>Introduction</li>
-				<li>Algebraic_Equations_&_Solutions</li>
-				<li>Solving_Equations</li>
-				<li>Solving_Equations_having_variables_on_both_sides</li>
-				<li>Reducing_equations_to_simpler_form</li>
-			</ul>
-		</li>
-			<li><span class="d-flex justify-content-between">
-			<span>Understanding_Quadrilaterals</span><span class="fa fa-angle-down"></span>
-			</span>
-			<ul>
-				<li>Introduction</li>
-				<li>Curves</li>
-				<li>Polygons</li>
-				<li>Diagonals</li>
-				<li>Angle_sum_property</li>
-				<li>Exterior_angles_sum_property</li>
-				<li>Kinds_of_Quadrilaterals</li>
-				<li>Types_of_Parallelograms</li>
+				<li>Force_of_Friction</li>
+				<li>Factors_affecting_Friction</li>
+				<li>Friction_a_necessary_evil</li>
+				<li>Methods_to_reduce_friction</li>
+				<li>Friction_also_produces_heat</li>
+				<li>Fluid_Friction</li>
 			</ul>
 		</li>
 		<li><span class="d-flex justify-content-between">
-			<span>Practical_Geometry</span><span class="fa fa-angle-down"></span>
+			<span>Sound</span><span class="fa fa-angle-down"></span>
 			</span>
 			<ul>
 				<li>Introduction</li>
-				<li>Constructing_Quadrilateral</li>
-				<li>Special_Quadrilaterals</li>
+				<li>Sound_is_produced_by_a_vibrating_body</li>
+				<li>The_Voice_Box</li>
+				<li>Sound_needs_a_medium_for_propagation</li>
+				<li>The_Human_Ear</li>
+				<li>Characteristics_of_Sound</li>
+				<li>Audible_and_Inaudible_sounds</li>
+				<li>Noise_and_Music</li>
+				<li>Noise_Pollution</li>
+				<li>Harms_of_Noise_Pollution</li>
+				<li>Measure_to_limit_Noise_Pollution</li>
+			</ul>
+		</li>
+		<li><span class="d-flex justify-content-between">
+			<span>Chemical_Effects</span><span class="fa fa-angle-down"></span>
+			</span>
+			<ul>
+				<li>Introduction</li>
+				<li>Conductors_and_Insulators</li>
+				<li>Conductors_of_Electricity</li>
+				<li>Chemical_Effects_of_Electric_Current</li>
+				<li>Electroplating</li>
+				<li>Applications_of_Electroplating</li>
 			</ul>
 		</li>
 	</ul>
@@ -72,163 +80,211 @@
 		
 		<div class="Force&Pressure-Introduction show">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile51,filesize("Content_Details/E1311.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-ForceA_push_or_a_pull">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile52,filesize("Content_Details/E1312.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Forces_interaction">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile53,filesize("Content_Details/E1313.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Exploring_Forces">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile54,filesize("Content_Details/E1314.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Force_motion">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile55,filesize("Content_Details/E1315.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Force_object">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile56,filesize("Content_Details/E1316.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Effects_Forces">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile57,filesize("Content_Details/E1317.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Contact_forces_and_Non_contact_forces">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile58,filesize("Content_Details/E1318.html"));
 			?>
 		</div>
 		<div class="Force&Pressure-Pressure">
 			<?php
-			include 'Contentvariable.php';
+			include 'ContentVariable.php';
 			echo fread($myFile59,filesize("Content_Details/E1319.html"));
 			?>
 		</div>
 		
 		
-		<div class="Linear_Equations_in_One_Variable-Introduction">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile21,filesize("Content_Details/E0321.html"));
+		<div class="Friction-Introduction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile61,filesize("Content_Details/E1321.html"));
 			?>	
 		</div>
-		<div class="Linear_Equations_in_One_Variable-Algebraic_Equations_&_Solutions">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile22,filesize("Content_Details/E0322.html"));
+		<div class="Friction-Force_of_Friction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile62,filesize("Content_Details/E1322.html"));
 			?>
 		</div>
-		<div class="Linear_Equations_in_One_Variable-Solving_Equations">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile23,filesize("Content_Details/E0323.html"));
+		<div class="Friction-Factors_affecting_Friction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile63,filesize("Content_Details/E1323.html"));
 			?>
 		</div>
-		<div class="Linear_Equations_in_One_Variable-Solving_Equations_having_variables_on_both_sides">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile24,filesize("Content_Details/E0324.html"));
+		<div class="Friction-Friction_a_necessary_evil">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile64,filesize("Content_Details/E1324.html"));
 			?>
 		</div>
-		<div class="Linear_Equations_in_One_Variable-Reducing_equations_to_simpler_form">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile25,filesize("Content_Details/E0325.html"));
+		<div class="Friction-Methods_to_reduce_friction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile65,filesize("Content_Details/E1325.html"));
 			?>
 		</div>
-
-		<div class="Understanding_Quadrilaterals-Introduction">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile31,filesize("Content_Details/E0331.html"));
+		<div class="Friction-Friction_also_produces_heat">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile66,filesize("Content_Details/E1326.html"));
 			?>
 		</div>
-		<div class="Understanding_Quadrilaterals-Curves">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile32,filesize("Content_Details/E0332.html"));
-			?>
-		</div>
-		<div class="Understanding_Quadrilaterals-Polygons">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile33,filesize("Content_Details/E0333.html"));
-			?>
-		</div>
-		<div class="Understanding_Quadrilaterals-Diagonals">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile34,filesize("Content_Details/E0334.html"));
-			?>
-		</div>
-		<div class="Understanding_Quadrilaterals-Angle_sum_property">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile35,filesize("Content_Details/E0335.html"));
-			?>
-		</div>
-		<div class="Understanding_Quadrilaterals-Exterior_angles_sum_property">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile36,filesize("Content_Details/E0336.html"));
-			?>
-		</div>
-		<div class="Understanding_Quadrilaterals-Kinds_of_Quadrilaterals">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile37,filesize("Content_Details/E0337.html"));
-			?>
-		</div>
-		<div class="Understanding_Quadrilaterals-Types_of_Parallelograms">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile38,filesize("Content_Details/E0338.html"));
+		<div class="Friction-Fluid_Friction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile67,filesize("Content_Details/E1327.html"));
 			?>
 		</div>
 
-		<div class="foPractical_Geometryurth-Introduction">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile41,filesize("Content_Details/E0341.html"));
+		<div class="Sound-Introduction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13301,filesize("Content_Details/E13301.html"));
 			?>
 		</div>
-		<div class="Practical_Geometry-Constructing_Quadrilateral">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile42,filesize("Content_Details/E0342.html"));
+		<div class="Sound-Sound_is_produced_by_a_vibrating_body">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13302,filesize("Content_Details/E13302.html"));
 			?>
 		</div>
-		<div class="Practical_Geometry-Special_Quadrilaterals">
-		<?php
-			include 'Contentvariable.php';
-			echo fread($myFile43,filesize("Content_Details/E0343.html"));
+		<div class="Sound-The_Voice_Box">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13303,filesize("Content_Details/E13303.html"));
+			?>
+		</div>
+		<div class="Sound-Sound_needs_a_medium_for_propagation">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13304,filesize("Content_Details/E13304.html"));
+			?>
+		</div>
+		<div class="Sound-The_Human_Ear">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13305,filesize("Content_Details/E13305.html"));
+			?>
+		</div>
+		<div class="Sound-Characteristics_of_Sound">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13306,filesize("Content_Details/E13306.html"));
+			?>
+		</div>
+		<div class="Sound-Audible_and_Inaudible_sounds">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13307,filesize("Content_Details/E13307.html"));
+			?>
+		</div>
+		<div class="Sound-Noise_and_Music">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13308,filesize("Content_Details/E13308.html"));
+			?>
+		</div>
+		<div class="Sound-Noise_Pollution">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13309,filesize("Content_Details/E13309.html"));
+			?>
+		</div>
+		<div class="Sound-Harms_of_Noise_Pollution">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13310,filesize("Content_Details/E13310.html"));
+			?>
+		</div>
+		<div class="Sound-Measure_to_limit_Noise_Pollution">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile13311,filesize("Content_Details/E13311.html"));
+			?>
+		</div>
+
+		<div class="Chemical_Effects-Introduction">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile1321,filesize("Content_Details/E1341.html"));
+			?>
+		</div>
+		<div class="Chemical_Effects-Conductors_and_Insulators">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile1322,filesize("Content_Details/E1342.html"));
+			?>
+		</div>
+		<div class="Chemical_Effects-Conductors_of_Electricity">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile1323,filesize("Content_Details/E1343.html"));
+			?>
+		</div>
+		<div class="Chemical_Effects-Chemical_Effects_of_Electric_Current">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile1324,filesize("Content_Details/E1344.html"));
+			?>
+		</div>
+		<div class="Chemical_Effects-Electroplating">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile1325,filesize("Content_Details/E1345.html"));
+			?>
+		</div>
+		<div class="Chemical_Effects-Applications_of_Electroplating">
+			<?php
+			include 'ContentVariable.php';
+			echo fread($myFile1326,filesize("Content_Details/E1346.html"));
 			?>
 		</div>
 	</div>
 
 
 	<div class="btns">
-		<button class="btn btn-Linear_Equations_in_One_Variableary" onclick="">NEXT</button>	
+		<button class="btn btn-Frictionary" onclick="">NEXT</button>	
 		<button class="btn btn-primary">PREV</button>	
 	</div>
 

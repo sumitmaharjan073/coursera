@@ -49,4 +49,26 @@ $myFile64 = fopen("Content_Details/E1324.html","r") or die("unable to open file"
 $myFile65 = fopen("Content_Details/E1325.html","r") or die("unable to open file");
 $myFile66 = fopen("Content_Details/E1326.html","r") or die("unable to open file");
 $myFile67 = fopen("Content_Details/E1327.html","r") or die("unable to open file");
+
+//sound variable
+$myFile13301 = fopen("Content_Details/E13301.html","r") or die("unable to open file");
+$myFile13302 = fopen("Content_Details/E13302.html","r") or die("unable to open file");
+$myFile13303 = fopen("Content_Details/E13303.html","r") or die("unable to open file");
+$myFile13304 = fopen("Content_Details/E13304.html","r") or die("unable to open file");
+$myFile13305 = fopen("Content_Details/E13305.html","r") or die("unable to open file");
+$myFile13306 = fopen("Content_Details/E13306.html","r") or die("unable to open file");
+$myFile13307 = fopen("Content_Details/E13307.html","r") or die("unable to open file");
+$myFile13308 = fopen("Content_Details/E13308.html","r") or die("unable to open file");
+$myFile13309 = fopen("Content_Details/E13309.html","r") or die("unable to open file");
+$myFile13310 = fopen("Content_Details/E13310.html","r") or die("unable to open file");
+$myFile13311 = fopen("Content_Details/E13311.html","r") or die("unable to open file");
+
+//physics chemical effect
+$myFile1321 = fopen("Content_Details/E1341.html","r") or die("unable to open file");
+$myFile1322 = fopen("Content_Details/E1342.html","r") or die("unable to open file");
+$myFile1323 = fopen("Content_Details/E1343.html","r") or die("unable to open file");
+$myFile1324 = fopen("Content_Details/E1344.html","r") or die("unable to open file");
+$myFile1325 = fopen("Content_Details/E1345.html","r") or die("unable to open file");
+$myFile1326 = fopen("Content_Details/E1346.html","r") or die("unable to open file");
+
 ?>
