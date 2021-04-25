@@ -11,7 +11,7 @@
 </head>
 <body>
 	<!-- path from home-->
-	<h5 class="path"><a href="">Home</a> / <a href="">Class8</a> / <a href="Maths.php">Maths</a></h5>
+	<h5 class="path"><a href="../../index.html">Home</a> / <a href="../classList.html">Class8</a> / <a href="Maths.php">Maths</a></h5>
 	<!-- topic div -->
 	<ul class="topics">
 		<h4>Topics</h4>

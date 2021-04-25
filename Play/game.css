@@ -1,0 +1,89 @@
+#game-page{
+
+}
+.buttonToIcon{
+    background: none;
+    padding: 0px;
+    border: none;
+}
+.left-game-part button{
+    border: 2px solid;
+    border-radius:2px;
+    width: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    float:right;
+    margin: 0 4px 0 4px;
+}
+.title{
+    color: purple;
+}
+#quiz{
+    display: block;
+    /* make it none later */
+}
+#next{
+    display: block;
+}
+#prev{
+    display:none;
+}
+#start{
+    display:none;
+    width: 90px;
+}
+#tictactoe{
+
+}
+.TicTacToeBoxSquare {
+    width: 304px;
+    height: 304px;
+    /* border: 2px solid black; */
+    padding: 0px;
+}
+.TicTacToeBox {
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    /*margin: 10px 10px 10px 10px;*/
+    border: 1px dotted red;
+    font-size: 46px;
+}
+.TicTacToeClear {
+    clear: both;
+}
+#buttonSt {
+    margin-top: 5px;
+    width: 200px;
+    min-height: 50px;
+    background: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:24px;
+}
+#buttonSt:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+#buttonNext {
+    margin-top: 5px;
+    min-height: 50px;
+    width: 90px;
+    padding: 15px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size:24px;
+    border: none;
+}
+#buttonNext:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.score-list{
+
+}

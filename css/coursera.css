@@ -52,25 +52,80 @@ nav .class-dropdown .sublist{
 nav .class-dropdown>li:hover .sublist{
 	display: block;
 }
+nav .class-dropdown li a{
+	text-decoration: none;
+	color: #000000;
+}
 
+/* arjun header */
+/*head-container-pic*/
+#head-part
+{
+	
+}
+.hd-full
+{
+	background-image: url('../images/home-accessories.jpg');
+	background-position: bottom right;
+	height: 620px;
+}
+.hd-cointainer
+{
+	padding-top: 180px;
+}
 
-/*banner*/
-.banner{
-	/*min-height: 100vh;*/
-	padding-top: 25vh;
+.head-write
+{
+	min-width: 100px;
 	padding-bottom: 50px;
 }
-.banner img{
-	min-height: 450px;
+.head-write a
+{
+	margin-top: 20px;
+	transition: 1s;
 }
-.banner h1{font-size:4em;}
-.banner button{
+.head-write a:hover
+{
+	background-color: transparent;
+	color: #000000;
+}
+#head-part .head-write button{
 	font-size: 20px;
 	text-align: center;
 	padding:25px 50px;
 	font-weight: bolder;
 
 }
+#head-part h1{font-size:4em;}
+
+#login-page{
+	/* display: block; */
+}
+#login-page .card
+{
+	min-width: 360px;
+	height: 350px;
+	background-color: rgba(20,20,20,0.5) !important;
+	color: #ffffff;
+}
+#login-approval{
+	/* display: none; */
+}
+#login-approval .card
+{
+	min-width: 360px;
+	height: 350px;
+	background-color: rgba(20,20,20,0.5) !important;
+	color: #ffffff;
+}
+#login-approval button{
+	margin: 10px auto;
+	padding: 5px 15px;
+}
+/*hed-container-pic*/
+
+
+
 
 .greydiv{
 	padding:100px 0;

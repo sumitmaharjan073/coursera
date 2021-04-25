@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="game.css">
+<title>TicTacToe</title>
+</head>
+<body>
+    <div id="tictactoe">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="TicTacToeBoxSquare col-md-6">
+                                            <input type="submit" id="b11" value=" " class="TicTacToeBox" onclick="TicTacToeInput(1,1)"/>
+                                            <input type="submit" id="b12" value=" " class="TicTacToeBox" onclick="TicTacToeInput(1,2)"/>
+                                            <input type="submit" id="b13" value=" " class="TicTacToeBox" onclick="TicTacToeInput(1,3)"/>
+                                            <input type="submit" id="b21" value=" " class="TicTacToeBox TicTacToeClear" onclick="TicTacToeInput(2,1)"/>
+                                            <input type="submit" id="b22" value=" " class="TicTacToeBox" onclick="TicTacToeInput(2,2)"/>
+                                            <input type="submit" id="b23" value=" " class="TicTacToeBox" onclick="TicTacToeInput(2,3)"/>
+                                            <input type="submit" id="b31" value=" " class="TicTacToeBox TicTacToeClear" onclick="TicTacToeInput(3,1)"/>
+                                            <input type="submit" id="b32" value=" " class="TicTacToeBox" onclick="TicTacToeInput(3,2)"/>
+                                            <input type="submit" id="b33" value=" " class="TicTacToeBox" onclick="TicTacToeInput(3,3)"/>
+                    
+                                            
+                                        </div>
+                                       
+                                    </div>
+                                    <button class="col-md-2" id='buttonSt' type="button" onclick="initGame()"class="clear">Start</button>
+                                    <button class="col-md-2" id='buttonNext' type="button" onclick="TicTacToePrint()">Done</button>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+    <script src="TicTacToe.js"></script>
+    <script src="TicTacToeAI.js"></script>
+</body>
+</html>
+

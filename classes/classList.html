@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+	<title>Class</title>
+	<style>
+		*{box-sizing: border-box;margin:0px;padding: 0px;}
+		/*path*/
+		.path{margin:0px 20px;padding:10px 5px;font-weight: normal;}
+
+		/*topic class div*/
+		.topics{
+			width: 300px;
+			padding:10px;
+			box-shadow: 0 0 3px grey;
+			border-radius: 5px;
+			font-size: 18px;
+			font-family: sans-serif;
+			position:absolute;
+			top:45px;
+			left:20px;
+			height:90vh;
+			overflow-y: scroll;
+		}
+		ul{list-style: none;
+		   margin-left:0px !important;
+		}
+		ul li:hover{cursor: pointer;}
+		.topics>li{
+			padding:5px;
+			border-radius: 3px;
+			box-shadow: 0 0 3px grey;
+			margin-bottom: 10px;
+		}
+		.topics>li>ul{
+			padding-left:10px !important;
+			height:0;
+			overflow-y: hidden;
+		}
+
+		/*topic detail*/
+		.topic-detail{
+			margin-left: 340px;
+			box-shadow: 0 0 3px grey;
+			padding: 5px;
+			width: 50%;
+			border-radius: 4px;
+			font-weight: bold;
+			font-size: 18px;
+			min-height: 70vh;
+		}
+		.topic-detail>div{display: none;}
+		.btns{margin-left: 340px;margin-top: 30px;}
+
+		/*css added classs*/
+		.incHeight{height: auto !important;}
+		.red{color:red;}
+		.green{color:green;}
+		.show{display:block !important;}
+	</style>
+</head>
+<body>
+	<!-- path from home-->
+	<h5 class="path">Home / Class</h5>
+	<!-- topic div -->
+	<ul class="topics">
+		<h4>Topics</h4>
+		<li><span class="green d-flex justify-content-between">
+			<span>first</span><span class="fa fa-angle-down"></span>
+			</span>
+			<ul class="incHeight">
+				<li class="red"><a href="class8/Maths.php">English</a></li>
+				<li><a href="class8/Physics.php"></a>>Science</a></li>
+				<li><a href="class8/Maths.php"></a>>Maths</a></li>
+			</ul>
+		</li>
+		
+			
+	</ul>
+
+	<!-- topic detail div -->
+	<div class="topic-detail">
+		<div class="first-English show">
+			first  topic1
+		</div>
+		<div class="first-Science">
+			first topic2
+		</div>
+		<div class="first-Maths">
+			first topic3
+		</div>
+		
+	</div>
+
+	<div class="btns">
+		<button class="btn btn-secondary">NEXT</button>	
+		<button class="btn btn-primary">PREV</button>	
+	</div>
+
+	<script>
+		// list
+		var list=document.querySelectorAll('.topics>li');
+		var topicToShow=document.querySelectorAll('.topic-detail>div');
+
+		for(var i=0;i<list.length;i++){
+			// click event added to list
+			list[i].firstElementChild.addEventListener('click',expand);
+		}
+
+		function shrink(){
+			// shrink list
+			var sublist,listTitle;
+			for(var i=0;i<list.length;i++){
+			// green color removed
+			listTitle=list[i].firstElementChild;
+			listTitle.classList.remove('green');
+
+			// sublist selected and red color removed
+			sublist=list[i].lastElementChild;
+			sublist.classList.remove('incHeight');
+				for(var j=0;j<sublist.children.length;j++){
+					sublist.children[j].classList.remove('red');
+				}
+			}
+		}
+
+		// for click function
+		function expand(){
+			var ul=this.nextElementSibling;
+			
+			// shrinks other list when one list clicked
+			shrink(this);
+
+			// subtopic ul
+			ul.classList.add('incHeight');
+			this.classList.add('green');
+
+			// sublist selected  and first subtopic choosen
+			var sublist=this.nextElementSibling.children;
+			sublist[0].classList.add('red')
+
+			// again sublist click event added
+			for(var i=0;i<sublist.length;i++){
+				sublist[i].addEventListener('click',showContent);
+			}
+		}
+		function showContent(){
+			var sublist,listTitle,x;
+			sublist=this.parentElement;
+			// color removed to sublist
+			for(var i=0;i<sublist.children.length;i++){
+				if(sublist.children[i].classList.contains('red')){
+					sublist.children[i].classList.remove('red');
+				}
+			}
+			this.classList.add('red');
+			listTitle=sublist.previousElementSibling.firstElementChild;
+			x=listTitle.innerText;
+			x=x+"-"+this.innerText;
+
+			// remove other items
+			for(var i=0;i<topicToShow.length;i++){
+				if(topicToShow[i].classList.contains('show')){
+					topicToShow[i].classList.remove('show');
+				}
+			}
+			// show specific matching items
+			for(var i=0;i<topicToShow.length;i++){
+				if(topicToShow[i].classList.contains(x)){
+					topicToShow[i].classList.add('show');
+				}
+			}
+			
+		}
+	</script>
+</body>
+</html>

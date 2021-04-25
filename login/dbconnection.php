@@ -7,11 +7,11 @@ $con = mysqli_connect('localhost','root','','coursera');
 //so add db_name in fourth  parameter
 
 //connection checking 
-if (!$con) {
-    die("Connection failed: " . mysqli_connect_error());
-}else{
-    echo "Connected successfully";
-}
+// if (!$con) {
+//     die("Connection failed: " . mysqli_connect_error());
+// }else{
+//     echo "Connected successfully";
+// }
 
 //connecting to the database name coursera
 //explained above
